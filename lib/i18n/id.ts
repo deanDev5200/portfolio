@@ -142,7 +142,7 @@ export const id: Dictionary = {
       },
       embedded: {
         title: "Sistem Embedded & Perangkat Keras",
-        blurb: "Menjembatani firmware, sensor, dan dunia fisik.",
+        blurb: "Menghubungkan firmware, sensor, dan dunia fisik.",
         items: [
           "ESP32",
           "Arduino",
@@ -182,15 +182,15 @@ export const id: Dictionary = {
     eyebrow: "Kontak",
     title: { before: "Mari bangun sesuatu ", highlight: "bersama" },
     description:
-      "Terbuka untuk magang, kolaborasi, dan diskusi tentang jaringan, aplikasi web, atau proyek IoT embedded.",
+      "Terbuka untuk kesempatan magang, kolaborasi, dan diskusi seputar jaringan, aplikasi web, atau proyek IoT embedded.",
     cards: {
       github: {
         label: "GitHub",
-        description: "Kode sumber, proyek sampingan, dan eksperimen perangkat keras.",
+        description: "Source code, proyek sampingan, dan eksperimen hardware.",
       },
       linkedin: {
         label: "LinkedIn",
-        description: "Mari terhubung secara profesional dan membahas peluang.",
+        description: "Mari terhubung secara profesional dan membahas berbagai peluang.",
       },
       email: {
         label: "Email",
