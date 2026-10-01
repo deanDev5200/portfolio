@@ -2,6 +2,7 @@ import type { Metadata, Viewport } from "next";
 import { Geist, Geist_Mono } from "next/font/google";
 import { notFound } from "next/navigation";
 import { Analytics } from "@vercel/analytics/next";
+import { SpeedInsights } from "@vercel/speed-insights/next"
 
 import { getDictionary, hasLocale, locales } from "@/lib/i18n";
 import { siteUrl } from "@/lib/data";
@@ -92,6 +93,7 @@ export default async function RootLayout({
       <body className="flex min-h-dvh flex-col bg-surface font-sans">
         {children}
         <Analytics />
+        <SpeedInsights />
       </body>
     </html>
   );
