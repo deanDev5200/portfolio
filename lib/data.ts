@@ -7,7 +7,7 @@
 
 /** TODO: add your deployed URL (e.g. "https://deanputra.vercel.app").
  * Enables canonical + hreflang metadata. Leave "" to skip. */
-export const siteUrl = "";
+export const siteUrl = "https://portfolio.deanpop.my.id/";
 
 export const profile = {
   name: "I Dewa Gede Agung Dean Putra Purwita",
@@ -73,7 +73,7 @@ export const projects: Project[] = [
     title: "Mandara Talenta",
     category: "web",
     stack: ["React", "Tailwind CSS", "PostgreSQL"],
-    liveDemo: "http://202.162.215.133:5000/",
+    liveDemo: "https://talenta.skanbara.my.id/",
     repo: "https://github.com/LeakEXE/mandara-talenta",
   },
   {
